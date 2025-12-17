@@ -1,6 +1,5 @@
 # 🐰 Bam & Bunny Staking Vault (DeFi DApp)
 
-![Uploading image.png…]()
 
 ### 🚀 Project Vision & Delivery Summary
 ระบบ **Decentralized Finance (DeFi)** บนเครือข่าย **Sepolia Testnet** ที่ออกแบบมาเพื่อบริหารจัดการสินทรัพย์ดิจิทัลแบบไร้ตัวกลาง โปรเจกต์นี้ไม่ได้แสดงเพียงทักษะการเขียนโค้ด แต่เน้นย้ำถึงการส่งมอบงานที่มี **System Stability** และ **User-Centric Design** ภายใต้สภาพแวดล้อม Blockchain ที่มีความซับซ้อน.
@@ -32,7 +31,7 @@
 ### 🏃 Quick Start
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/kamolchaisiri/bam-bunny-staking-dapp.git](https://github.com/kamolchaisiri/bam-bunny-staking-dapp.git)
+   git clone https://github.com/kamolchaisiri/bam-bunny-staking-dapp.git
    ```
 
 2. **Install dependencies:**
@@ -45,3 +44,6 @@
    ```bash
    npm run dev
    ```
+4. **Network Configuration:**
+* เชื่อมต่อ MetaMask กับ Sepolia Testnet. *
+* รับเหรียญทดสอบจาก Sepolia Faucet เพื่อเริ่มใช้งาน. *
