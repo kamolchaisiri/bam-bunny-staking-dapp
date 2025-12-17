@@ -1,42 +1,48 @@
-🐰 Bam & Bunny Staking Vault (DeFi DApp)
-Project Overview
-ระบบ Decentralized Finance (DeFi) บนเครือข่าย Sepolia Testnet ที่ช่วยให้ผู้ใช้งานสามารถนำเหรียญ MTK (MyToken) มาฝาก (Stake) เพื่อรับผลตอบแทนแบบ Real-time. โปรเจกต์นี้แสดงถึงการพัฒนาแบบ End-to-End ตั้งแต่การออกแบบ Smart Contract ไปจนถึงการสร้าง Modern Dashboard.
+# 🐰 Bam & Bunny Staking Vault (DeFi DApp)
 
-🚀 Key Features
-Staking Mechanism: ระบบฝากเหรียญที่คำนวณรางวัลตามระยะเวลา (Block-based reward calculation).
+![Dashboard Preview](./dashboard.png) 
+*(Note: Please ensure you have a file named 'dashboard.png' in your root folder to display the screenshot)*
 
-Real-time Dashboard: แสดงผลยอดฝาก (Staked Balance) และรางวัลที่ได้รับ (Pending Rewards) แบบวินาทีต่อวินาที.
+### 🚀 Project Vision & Delivery Summary
+ระบบ **Decentralized Finance (DeFi)** บนเครือข่าย **Sepolia Testnet** ที่ออกแบบมาเพื่อบริหารจัดการสินทรัพย์ดิจิทัลแบบไร้ตัวกลาง โปรเจกต์นี้ไม่ได้แสดงเพียงทักษะการเขียนโค้ด แต่เน้นย้ำถึงการส่งมอบงานที่มี **System Stability** และ **User-Centric Design** ภายใต้สภาพแวดล้อม Blockchain ที่มีความซับซ้อน.
 
-Transaction History: ระบบบันทึกประวัติธุรกรรมย้อนหลัง (Stake, Claim) เพื่อความโปร่งใสและตรวจสอบได้ (Transparency).
+---
 
-Responsive Dark Mode UI: อินเทอร์เฟซที่ใช้งานง่าย เน้นความปลอดภัยและเสถียรภาพของระบบ (System Stability).
-
-🛠 Technology Stack
-Smart Contracts: Solidity (OpenZeppelin Standards).
-
-Development Framework: Hardhat (Deployment & Testing).
-
-Frontend: React.js, Ethers.js.
-
-Web3 Connectivity: MetaMask Integration.
-
-Network: Ethereum Sepolia Testnet.
-
-🖥️ How to Run
-Clone the repo: git clone [your-repo-link]
-
-Install dependencies: npm install
-
-Run Frontend: cd frontend && npm run dev
-
-Connect Wallet: เปลี่ยนเครือข่าย MetaMask เป็น Sepolia Testnet.
-
-Deployed Contracts:
-
-MyToken (MTK): 0x191d9F164F88412ddFCf65562a84e4771f050BE9
-
-StakingVault: 0x445cCB48c2083dF6C2f58A46b2aC991E822654D5
+### 🛠 Key Technical Features
+* **Staking Mechanism:** พัฒนาด้วย Solidity (ERC-20 Standard) รองรับการฝากเหรียญและการคำนวณรางวัลแบบ Real-time.
+* **Dynamic Dashboard:** Frontend พัฒนาด้วย React และ Ethers.js แสดงผลข้อมูล On-chain แบบสดๆ (Staked Balance & Rewards).
+* **Audit Trail:** ตาราง **Recent Activity** บันทึกประวัติธุรกรรมย้อนหลังเพื่อความโปร่งใส (Transparency) ตามมาตรฐานสถาบันการเงิน.
+* **MetaMask Integration:** เชื่อมต่อ Wallet และจัดการสถานะการเชื่อมต่อ (Connected/Disconnected States) อย่างสมบูรณ์.
 
 
-![alt text](image.png)
+---
 
+### 💻 Tech Stack
+* **Blockchain:** Solidity, Hardhat, Ethers.js
+* **Frontend:** React (Vite), Modern CSS (Dark Mode)
+* **Security:** OpenZeppelin Smart Contracts, .env Variable Protection
+
+---
+
+### 📦 Deployment Addresses
+* **Staking Vault:** `0x445cCB48c2083dF6C2f58A46b2aC991E822654D5`
+* **MyToken (MTK):** `0x191d9F164F88412ddFCf65562a84e4771f050BE9`
+
+---
+
+### 🏃 Quick Start
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/kamolchaisiri/bam-bunny-staking-dapp.git](https://github.com/kamolchaisiri/bam-bunny-staking-dapp.git)
+   ```
+
+2. **Install dependencies:**
+    ```bash
+   npm install
+   cd frontend && npm install
+    ```
+    
+3. **Run the application:**
+   ```bash
+   npm run dev
+   ```
