@@ -45,5 +45,5 @@
    npm run dev
    ```
 4. **Network Configuration:**
-* เชื่อมต่อ MetaMask กับ Sepolia Testnet. *
-* รับเหรียญทดสอบจาก Sepolia Faucet เพื่อเริ่มใช้งาน. *
+* เชื่อมต่อ MetaMask กับ Sepolia Testnet. 
+* รับเหรียญทดสอบจาก Sepolia Faucet เพื่อเริ่มใช้งาน. 
